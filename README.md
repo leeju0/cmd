@@ -26,5 +26,4 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 "$SAVAOS_PYTHON" bin/savaosctl.pyc
 
 # 라마서버 커밋: 86b94708f22478f900b76ca02e316f4f3418faff
-[[https://drive.google.com/file/d/1xEMkJjFAwq-ffOH9zEjnkbR6ZvQ6O4lE/view?usp=sharing](https://drive.google.com/file/d/1rMRi5mOlWbtsEmYY6CcuTc6uJZlmggse/view?usp=sharing)
-](https://drive.google.com/file/d/1Qu5183rt4gxs3chaLTtS__QTn2UBZz4Q/view?usp=sharing)
+https://drive.google.com/file/d/1Qu5183rt4gxs3chaLTtS__QTn2UBZz4Q/view?usp=sharing
