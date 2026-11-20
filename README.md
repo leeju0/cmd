@@ -1,8 +1,7 @@
 # 1. LLM·OCR 공용: Gemma 4 12B IQ4_NL + projector만 다운로드
-huggingface-cli download unsloth/gemma-4-12b-it-GGUF \
-  gemma-4-12b-it-IQ4_NL.gguf \
-  mmproj-F16.gguf \
-  --local-dir /home/joseph/sava/LLM_model/gemma4
+huggingface-cli download unsloth/gemma-4-12b-it-GGUF --include "gemma-4-12b-it-IQ4_NL.gguf" --local-dir /home/joseph/sava/LLM_model/gemma4
+
+huggingface-cli download unsloth/gemma-4-12b-it-GGUF mmproj-F16.gguf --local-dir /home/joseph/sava/LLM_model/gemma4
 
 # 2. 음성 인식: Faster Whisper large-v3
 huggingface-cli download Systran/faster-whisper-large-v3 \
