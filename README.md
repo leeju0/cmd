@@ -36,3 +36,13 @@ Test-NetConnection -ComputerName SERVER_IP -Port 8000
 
 # config 파일 
 https://drive.google.com/file/d/1Jdwm7n22eWqJtIC8b9yYiPFR0PqnmQtG/view?usp=sharing
+
+# 176 안되는 원인
+ss -ltnp | grep ':8008'
+결과가:
+127.0.0.1:8008
+이면 외부 접속을 안 받는 상태입니다.
+
+결과가:
+0.0.0.0:8008
+이면 SAVA 코드는 외부 접속을 받을 준비가 된 상태이고, 포트포워딩·방화벽·라우팅 쪽 문제입니다.
