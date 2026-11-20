@@ -26,5 +26,5 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 "$SAVAOS_PYTHON" bin/savaosctl.pyc
 
 # 화자분할 모델
-https://drive.google.com/file/d/1xEMkJjFAwq-ffOH9zEjnkbR6ZvQ6O4lE/view?usp=sharing
+[https://drive.google.com/file/d/1xEMkJjFAwq-ffOH9zEjnkbR6ZvQ6O4lE/view?usp=sharing](https://drive.google.com/file/d/1rMRi5mOlWbtsEmYY6CcuTc6uJZlmggse/view?usp=sharing)
 
