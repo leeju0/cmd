@@ -20,3 +20,7 @@ huggingface-cli download intfloat/multilingual-e5-small \
 # 5. Dense 검색 임베딩: Qwen3 Embedding 0.6B
 huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
   --local-dir /home/joseph/sava/LLM_model/qwen3-embedding-0.6b
+
+
+
+"$SAVAOS_PYTHON" bin/savaosctl.pyc
