@@ -1,5 +1,7 @@
 현재 서버 환경 기준으로 **LibreOffice TAR.GZ 파일을&#x20;**`/home/joseph/sava/`**에 두고**, 기존 Conda `sava` 환경에 `sudo` 없이 설치하면 돼.
 
+https://drive.google.com/file/d/1Oh8LpTjYPRZ4rJgGp9wzwcUR_3tqj5R_/view?usp=sharing
+
 ## **1. TAR.GZ 파일 위치**
 
 Google Drive에서 받은 `libreoffice.tar.gz` 파일을 서버의 다음 경로에 넣어.
