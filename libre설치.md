@@ -31,8 +31,7 @@ libreoffice --version
 설치 파일이 다른 위치에 있는지도 확인해 봐.
 
 ```
-find "$CONDA_PREFIX" "$HOME" /opt \
-  -name soffice 2>/dev/null | head
+find "$CONDA_PREFIX" "$HOME" /opt -name soffice 2>/dev/null | head
 ```
 
 경로가 나온다면 새로 설치하지 않아도 돼.
