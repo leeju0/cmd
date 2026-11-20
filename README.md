@@ -22,7 +22,9 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
   --local-dir /home/joseph/sava/LLM_model/qwen3-embedding-0.6b
 
 
-
+# ctl실행
 "$SAVAOS_PYTHON" bin/savaosctl.pyc
 
+# 화자분할 모델
 https://drive.google.com/file/d/1xEMkJjFAwq-ffOH9zEjnkbR6ZvQ6O4lE/view?usp=sharing
+
