@@ -57,9 +57,12 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 - **`llama-server` 실행 파일은 별도 준비**해야 합니다.
 - 납품용 모델 버전까지 고정하려면 각 명령에 `--revision 검증된커밋해시`를 추가하세요.
 
-  cd /data/leezoo/SAVA/SAVA_OS/dist/SAVA_OS
 
-export SAVAOS_PYTHON=/data/anaconda3/envs/SAVA/bin/python3
+
+
+cd /home/joseph/sava/SAVA_OS/dist/SAVA_OS
+
+export SAVAOS_PYTHON=/home/joseph/anaconda3/envs/sava/bin/python3
 export SAVAOS_CTL_CONFIG="$HOME/.config/savaos/pyc-test.json"
 
 "$SAVAOS_PYTHON" bin/savaosctl.pyc
