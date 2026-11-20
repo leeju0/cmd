@@ -29,9 +29,6 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 https://drive.google.com/file/d/1Qu5183rt4gxs3chaLTtS__QTn2UBZz4Q/view?usp=sharing
 
 
-# libre 설치
-conda install -c conda-forge libreoffice -y
-conda install -c conda-forge fonts-noto -y
 
 # 방화벽 설정
 New-NetFirewallRule -DisplayName "SAVA Allow TCP 8005" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8005
