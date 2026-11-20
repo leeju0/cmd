@@ -24,3 +24,5 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 
 
 "$SAVAOS_PYTHON" bin/savaosctl.pyc
+
+https://drive.google.com/file/d/1xEMkJjFAwq-ffOH9zEjnkbR6ZvQ6O4lE/view?usp=sharing
