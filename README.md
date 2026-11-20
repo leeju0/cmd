@@ -28,8 +28,6 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 # 라마서버 커밋: 86b94708f22478f900b76ca02e316f4f3418faff
 https://drive.google.com/file/d/1Qu5183rt4gxs3chaLTtS__QTn2UBZz4Q/view?usp=sharing
 
-#UI 체크오류
-cmake -S /home/joseph/sava/LLM_model/llama.cpp -B /home/joseph/sava/LLM_model/llama.cpp/build -G Ninja -DGGML_CUDA=ON -DLLAMA_BUILD_SERVER=ON -DLLAMA_BUILD_UI=OFF -DLLAMA_USE_PREBUILT_UI=OFF -DCUDAToolkit_ROOT="$CONDA_PREFIX" -DCMAKE_CUDA_COMPILER="$CONDA_PREFIX/bin/nvcc" -DCMAKE_CUDA_HOST_COMPILER="$CXX" -DCMAKE_C_COMPILER="$CC" -DCMAKE_CXX_COMPILER="$CXX" -DCMAKE_BUILD_RPATH="${CONDA_PREFIX}/lib;${CONDA_PREFIX}/targets/x86_64-linux/lib"
 
-재빌드
-cmake --build /home/joseph/sava/LLM_model/llama.cpp/build --target llama-serv
+# libre 설치
+conda install -c conda-forge libreoffice -y
