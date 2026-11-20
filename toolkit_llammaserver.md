@@ -95,7 +95,7 @@ export CC="$CONDA_PREFIX/bin/x86_64-conda-linux-gnu-cc" CXX="$CONDA_PREFIX/bin/x
 Conda 환경 안의 `nvcc`와 CUDA 라이브러리를 사용하도록 설정합니다.
 
 ```bash
-cmake -S /home/joseph/sava/LLM_model/llama.cpp -B /home/joseph/sava/LLM_model/llama.cpp/build -G Ninja -DGGML_CUDA=ON -DCUDAToolkit_ROOT="$CONDA_PREFIX" -DCMAKE_CUDA_COMPILER="$CONDA_PREFIX/bin/nvcc" -DCMAKE_CUDA_HOST_COMPILER="$CXX" -DCMAKE_C_COMPILER="$CC" -DCMAKE_CXX_COMPILER="$CXX" -DCMAKE_BUILD_RPATH="${CONDA_PREFIX}/lib;${CONDA_PREFIX}/targets/x86_64-linux/lib"
+cmake -S /home/joseph/sava/LLM_model/llama.cpp -B /home/joseph/sava/LLM_model/llama.cpp/build -G Ninja -DGGML_CUDA=ON -DLLAMA_BUILD_SERVER=ON -DLLAMA_BUILD_UI=OFF -DLLAMA_USE_PREBUILT_UI=OFF -DCUDAToolkit_ROOT="$CONDA_PREFIX" -DCMAKE_CUDA_COMPILER="$CONDA_PREFIX/bin/nvcc" -DCMAKE_CUDA_HOST_COMPILER="$CXX" -DCMAKE_C_COMPILER="$CC" -DCMAKE_CXX_COMPILER="$CXX" -DCMAKE_BUILD_RPATH="${CONDA_PREFIX}/lib;${CONDA_PREFIX}/targets/x86_64-linux/lib"
 ```
 
 오류 없이 설정이 끝나면 `llama-server`를 빌드합니다.
