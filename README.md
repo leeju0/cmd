@@ -27,3 +27,9 @@ huggingface-cli download Qwen/Qwen3-Embedding-0.6B \
 
 # 라마서버 커밋: 86b94708f22478f900b76ca02e316f4f3418faff
 https://drive.google.com/file/d/1Qu5183rt4gxs3chaLTtS__QTn2UBZz4Q/view?usp=sharing
+
+#UI 체크오류
+cmake -S /home/joseph/sava/LLM_model/llama.cpp -B /home/joseph/sava/LLM_model/llama.cpp/build -DLLAMA_BUILD_SERVER=ON -DLLAMA_SERVER_WEBUI=OFF
+
+재빌드
+cmake --build /home/joseph/sava/LLM_model/llama.cpp/build --target llama-server -j 2
